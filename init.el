@@ -103,6 +103,12 @@
 
 (require 'init-dash)
 (require 'init-ledger)
+
+;; go auto-complete config
+(require 'go-autocomplete)
+(require 'auto-complete-config)
+(ac-config-default)
+
 ;; Extra packages which don't require any configuration
 
 (require-package 'gnuplot)
